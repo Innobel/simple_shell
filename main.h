@@ -9,5 +9,5 @@
 #include <sys/wait.h>
 
 void handle_command(char *input);
-
+ssize_t custom_getline(char **line, size_t *n, FILE *stream);
 #endif /* MAIN_H */
